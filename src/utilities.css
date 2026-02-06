@@ -1,0 +1,39 @@
+.emphasis {
+  font-family: "Fjalla One", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.icon-start {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2rem;
+}
+
+.link-bubble {
+    display: block;
+    color: #FFC904;
+    background-color: #000;
+    height: 3.5rem;
+    align-content: center;
+    border-radius: 99rem;
+    outline: 2px solid #FFC904;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.link-bubble-text {
+    transition: font-size 0.1s ease-in-out;
+}
+
+.link-bubble:hover {
+    background-color: #111;
+}
+
+.link-bubble:hover > .link-bubble-text {
+    font-size: 1.3rem;
+}
