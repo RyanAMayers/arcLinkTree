@@ -40,11 +40,18 @@ main {
     margin: 4rem auto 0;
 }
 
+#top-badges {
+    display: flex;
+    width: 80%;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
 #link-stack {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 2rem 0;
+    margin: 1rem 0;
     gap: 1rem;
 }
 

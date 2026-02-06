@@ -12,11 +12,11 @@
     width: 2rem;
 }
 
-.link-bubble {
+.link-bubble,
+.link-badge {
     display: block;
     color: #FFC904;
     background-color: #000;
-    height: 3.5rem;
     align-content: center;
     border-radius: 99rem;
     outline: 2px solid #FFC904;
@@ -26,14 +26,25 @@
     transition: background-color 0.1s ease-in-out;
 }
 
-.link-bubble-text {
+.link-bubble {
+    height: 3.5rem;
+}
+
+.link-badge {
+    height: 2.5rem;
+}
+
+.link-bubble-text,
+.link-badge-text {
     transition: font-size 0.1s ease-in-out;
 }
 
-.link-bubble:hover {
+.link-bubble:hover,
+.link-badge:hover {
     background-color: #111;
 }
 
-.link-bubble:hover > .link-bubble-text {
+.link-bubble:hover > .link-bubble-text,
+.link-badge:hover > .link-badge-text {
     font-size: 1.3rem;
 }
