@@ -48,3 +48,11 @@
 .link-badge:hover > .link-badge-text {
     font-size: 1.3rem;
 }
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
